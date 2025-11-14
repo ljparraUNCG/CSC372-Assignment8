@@ -1,0 +1,33 @@
+.scoreBoard {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.scoreBoard p {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #03db36;
+  color: white;
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+  box-shadow: 0 0 10px 5px #ffffff;
+}

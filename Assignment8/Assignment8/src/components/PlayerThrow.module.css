@@ -1,0 +1,27 @@
+.playerSection {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.throwImg {
+  width: 120px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.throwImg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 5px white;
+}
+
+.selected {
+  border-color: rgb(255, 0, 0);
+  box-shadow: 0 0 10px 5px rgb(192, 17, 17);
+}
